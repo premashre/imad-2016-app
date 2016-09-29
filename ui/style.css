@@ -21,7 +21,8 @@ body {
 }
 .container {
         max width: 800px;
-        margin: 0auto;
+        margin: 0 auto;
         color: red;
         font-family: sans serif;
+        text-align: justify;
 }

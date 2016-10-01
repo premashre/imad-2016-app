@@ -29,6 +29,10 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
+app.get('/ui/cloud', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', "https://clipartion.com/wp-content/uploads/2016/04/best-storm-cloud-clipart.gif"));
+});
+
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });

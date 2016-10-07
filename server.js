@@ -36,7 +36,7 @@ app.get('/ui/main.js', function (req, res) {
 });
 
 app.get('/ui/arizona', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', http://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzL2Q3ZGVlOGE3N2NlNmQzNTlkZF8xMjAwcHgtSG9yc2VzaG9lX0JlbmRfd2l0aF8xNG1tX0xlbnNfb25fTmlrb25fRDgwMGUuanBnIl0sWyJwIiwidGh1bWIiLCI5ODB4PiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MSAtYXV0by1vcmllbnQiXV0/1200px-Horseshoe_Bend_with_14mm_Lens_on_Nikon_D800e.jpg));
+  res.sendFile(path.join(__dirname, 'ui', "https://media-cdn.tripadvisor.com/media/photo-s/03/9a/0e/c2/horseshoe-bend.jpg"));
 });
 
 app.get('/ui/cloud', function (req, res) {

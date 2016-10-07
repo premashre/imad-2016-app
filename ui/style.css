@@ -6,7 +6,7 @@ body {
 body {
     height:100%;
    width:100%;
-   background-image:imad-2016-app/Horse Shoe Bend, Page, Arizona.JPG(image.jpg);
+   background-image: img-large (image.jpg);
    background-repeat:no-repeat;
    background-size:cover; 
    /*css hack for ie*/     

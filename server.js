@@ -35,7 +35,7 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
-app.get('ui/arizona', function (req, res) {
+app.get('/ui/arizona', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Horse Shoe Bend 2, Page, Arizona.JPG'));
 });
 

@@ -35,6 +35,10 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
+app.get('ui/arizona', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Horse Shoe Bend 2, Page, Arizona.JPG'));
+});
+
 app.get('/ui/cloud', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', "https://clipartion.com/wp-content/uploads/2016/04/best-storm-cloud-clipart.gif"));
 });

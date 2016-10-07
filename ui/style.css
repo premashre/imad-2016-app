@@ -3,7 +3,13 @@ body {
     background-color: lightgrey;
     margin-top: 75px;
 }
-
+html { 
+  background: imad-2016-app/Horse Shoe Bend, Page, Arizona.JPG no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .center {
     text-align: center;
 }

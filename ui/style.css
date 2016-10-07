@@ -10,7 +10,7 @@ body {
    background-repeat:no-repeat;
    background-size:cover; 
    /*css hack for ie*/     
-   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.bg-img',sizingMethod='scale');
    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
 }
 

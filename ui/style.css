@@ -6,7 +6,7 @@ body {
 body {
     height:100%;
    width:100%;
-   background-image: img-large (image.jpg);
+   background-image: bg-img (image.jpg);
    background-repeat:no-repeat;
    background-size:cover; 
    /*css hack for ie*/     
